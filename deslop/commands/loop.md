@@ -1,5 +1,5 @@
 ---
-name: loop
+name: deslop:loop
 description: Autonomously run the desloppify scan-next-fix cycle up to a configurable limit
 argument-hint: "<path> [max-iterations]"
 allowed-tools:

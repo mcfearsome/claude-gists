@@ -1,5 +1,5 @@
 ---
-name: next
+name: deslop:next
 description: Get the next prioritized desloppify issue and optionally fix it
 argument-hint: "<path>"
 allowed-tools:

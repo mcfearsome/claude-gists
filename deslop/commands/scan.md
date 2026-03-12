@@ -1,5 +1,5 @@
 ---
-name: scan
+name: deslop:scan
 description: Run desloppify scan on a codebase to get a quality score and identify issues
 argument-hint: "<path>"
 allowed-tools:
