@@ -1,5 +1,4 @@
 ---
-name: deslop:setup
 description: Install or upgrade desloppify and configure it for Claude Code
 argument-hint: "[extras]"
 allowed-tools:
