@@ -7,5 +7,8 @@
   },
   "repository": "https://github.com/mcfearsome/claude-gists",
   "license": "MIT",
-  "keywords": ["code-quality", "desloppify", "linting", "refactoring"]
+  "keywords": ["code-quality", "desloppify", "linting", "refactoring"],
+  "commands": "./deslop/commands",
+  "agents": "./deslop/agents",
+  "hooks": "./deslop/hooks/hooks.json"
 }
