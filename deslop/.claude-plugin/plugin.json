@@ -1,6 +1,6 @@
 {
   "name": "deslop",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Claude Code integration for desloppify — AI-powered codebase quality scoring and iterative improvement",
   "author": {
     "name": "mcfearsome"

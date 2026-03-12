@@ -6,28 +6,7 @@
   "plugins": [
     {
       "name": "deslop",
-      "description": "Claude Code integration for desloppify — AI-powered codebase quality scoring and iterative improvement. Scan codebases, get quality scores, and autonomously fix issues through the scan-next-fix loop.",
-      "version": "0.1.4",
-      "author": {
-        "name": "mcfearsome"
-      },
-      "source": {
-        "source": "github",
-        "repo": "mcfearsome/claude-gists"
-      },
-      "homepage": "https://github.com/peteromallet/desloppify",
-      "repository": "https://github.com/mcfearsome/claude-gists.git",
-      "license": "MIT",
-      "keywords": [
-        "code-quality",
-        "desloppify",
-        "linting",
-        "refactoring",
-        "cleanup",
-        "autonomous"
-      ],
-      "category": "code-quality",
-      "tags": ["code-quality", "automation", "desloppify", "refactoring"]
+      "source": "./deslop"
     }
   ]
 }
