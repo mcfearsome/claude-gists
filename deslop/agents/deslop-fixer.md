@@ -1,32 +1,6 @@
 ---
 name: deslop-fixer
-color: green
-description: >
-  Autonomous code quality improvement agent powered by desloppify. Iterates through
-  the scan→next→fix→resolve cycle to systematically improve codebase quality scores.
-  Use PROACTIVELY after significant code has been written or modified, or when the user
-  asks about code quality, cleanup, or desloppify. Also dispatched by the /deslop:loop command.
-
-  Examples:
-  <example>
-  Context: User has just finished implementing a large feature with multiple new files.
-  user: "Alright, that feature is done. The code is pretty rough though."
-  assistant: "Let me run the deslop-fixer agent to scan and improve the code quality."
-  <commentary>The user acknowledges code quality concerns after writing significant code — this is a prime opportunity to proactively run desloppify.</commentary>
-  </example>
-  <example>
-  Context: User asks about code quality or wants to clean up.
-  user: "Can you clean up this codebase? It's gotten pretty sloppy."
-  assistant: "I'll use the deslop-fixer agent to systematically identify and fix quality issues."
-  <commentary>User explicitly wants code cleanup — deslop-fixer handles this autonomously.</commentary>
-  </example>
-  <example>
-  Context: User mentions desloppify directly.
-  user: "Run desloppify on src/ and fix whatever it finds"
-  assistant: "I'll dispatch the deslop-fixer agent to scan src/ and work through the issues."
-  <commentary>Direct request for desloppify — dispatch the agent.</commentary>
-  </example>
-model: sonnet
+description: "Autonomous code quality improvement agent powered by desloppify. Iterates through the scan, next, fix, resolve cycle to systematically improve codebase quality scores. Use PROACTIVELY after significant code has been written or modified, or when the user asks about code quality, cleanup, or desloppify. Also dispatched by the /deslop:loop command."
 tools:
   - Bash
   - Read
