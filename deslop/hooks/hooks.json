@@ -1,0 +1,13 @@
+{
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "If significant code was written or modified during this task (new files created, substantial edits to existing files, or a feature implementation), suggest to the user that they run `/deslop:scan <path>` to check code quality. Keep the suggestion brief and natural, like: 'Since we wrote a fair amount of code, you might want to run `/deslop:scan <path>` to check the quality score.' If only minor changes were made (config tweaks, small fixes, documentation), do NOT suggest a scan."
+        }
+      ]
+    }
+  ]
+}

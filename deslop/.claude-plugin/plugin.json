@@ -1,0 +1,11 @@
+{
+  "name": "deslop",
+  "version": "0.1.0",
+  "description": "Claude Code integration for desloppify — AI-powered codebase quality scoring and iterative improvement",
+  "author": {
+    "name": "mcfearsome"
+  },
+  "repository": "https://github.com/mcfearsome/claude-gists",
+  "license": "MIT",
+  "keywords": ["code-quality", "desloppify", "linting", "refactoring"]
+}
